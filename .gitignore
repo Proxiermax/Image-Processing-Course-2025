@@ -2,3 +2,38 @@
 */runs
 */Ship
 */thai-handwriting-number.appspot.com
+
+# CelebA Dataset - ignore the entire dataset folder
+Lab5_CNN/data/img_align_celeba/
+**/data/img_align_celeba/
+
+# Alternative: ignore all data folders with CelebA
+data/img_align_celeba/
+**/img_align_celeba/
+
+# Model checkpoints and training outputs
+*.pth
+*.pt
+*.pkl
+*.h5
+*.ckpt
+
+# Training logs and temporary files
+runs/
+logs/
+checkpoints/
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Large image datasets (add more as needed)
+*.jpg
+*.jpeg
+*.png
+*.tiff
+*.bmp
+!sample*.jpg
+!example*.jpg
