@@ -1,0 +1,39 @@
+﻿Image Processing Lab #6 Competition – Autoencoder from Scratch 
+ Objective: 
+Design and train an autoencoder for image processing tasks using only PyTorch. The goal  is to help you understand neural network structures from the ground up, encouraging  you to modify and experiment with network architecture creatively. 
+ Rules & Requirements: 
+ Framework & Implementation: 
+• Only PyTorch is allowed. 
+• All models must be trained from scratch — use of any pre-trained models or  weights is strictly prohibited. 
+• The autoencoder architecture must be implemented manually. Do not use any  external libraries or model APIs (e.g., torchvision.models, timm, fastai) for the  autoencoder. 
+• You may use standard PyTorch utilities such as: 
+o torchvision.transforms for image preprocessing 
+o DataLoader for data handling 
+o Standard loss functions and optimizers 
+• Network modification is encouraged. Try different architectures and explore what  works best! 
+ Input Specifications: 
+• All input images must be resized to 128×128 pixels. 
+• Your model must support this fixed input size. 
+ Submission Guidelines: 
+Each team must submit: 
+1. Source Code: Well-structured and documented PyTorch code for model, training,  and evaluation. 
+2. Trained Model Weights (.pt or .pth). 
+3. README File with: 
+o Setup and execution instructions 
+o Dependencies and environment info 
+o How to reproduce your results 
+4. (Optional but encouraged): A short architecture explanation or diagram describing  your network design.
+ Submission Rules: 
+• Each team may submit up to 5 times per day. 
+• Every team is required to submit at least one valid entry before the competition  deadline to be eligible for lab score, ranking, and prizes. 
+• Submissions must be reproducible using your code and weights. 
+ Evaluation: 
+• Models will be evaluated on a hidden test set. 
+• Performance metric: [Insert chosen metric, e.g., Mean Squared Error (MSE),  PSNR, SSIM] 
+• The leaderboard will reflect the best-performing submission per team. • Final results will be locked in after the competition closes. 
+ Prizes: 
+• 1st Place: 500 THB 
+• 2nd Place: 300 THB 
+• 3rd Place: 200 THB 
+ Team Rules: 
+• All work must be original. Plagiarism or code copying will result in disqualification. • Top submissions may be reviewed or questioned to verify understanding.
